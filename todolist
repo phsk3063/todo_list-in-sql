@@ -1,0 +1,7 @@
+CREATE TABLE todo_list (task_id INTEGER PRIMARY KEY, task_name VARCHAR(30), description VARCHAR(500), is_completed BOOLEAN);
+INSERT INTO todo_list VALUES (1, "Wash the dishes","Complete the task of washing the dishes in the kitchen after dinner",  True);
+INSERT INTO todo_list VALUES (2, "Study at 7pm", "After coming from school watch tv upto 6:30pm and study at 7pm", False);
+INSERT INTO todo_list VALUES (3, "Register a course in lets upgrade", "After completeting the SQL course register for another course", True);
+INSERT INTO todo_list VALUES (4, "Complete dinner at 9pm", "After completeing the studies eat the dinner and go to bed", False);
+
+SELECT * FROM todo_list;
